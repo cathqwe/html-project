@@ -1,0 +1,19 @@
+h1 {
+    color: seagreen;
+    font-weight: 500;
+    font-family: impact;
+}
+
+p{
+    font-size: x-large;
+}
+ 
+h3 {
+    color: red;
+    font-weight: 400;
+}
+
+h2 {
+    color: blue;
+    font-style: italic;
+}

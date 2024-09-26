@@ -1,0 +1,26 @@
+/* Travel Tips Section */
+.travel-tips {
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+.travel-tips h2 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #2980b9; 
+}
+
+.travel-tips li {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #2c3e50; 
+    margin-top: 15px; 
+}
+
+.travel-tips p {
+    font-size: 16px; 
+    font-weight: normal; 
+    color: #555; 
+    background-position: 0cqb;
+    background-color: bisque;
+}

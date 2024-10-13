@@ -1,0 +1,13 @@
+.image-container img {
+    max-width: 50%;     
+    height: 50%;   
+}
+h1 {
+    font-size:x-large;
+    font-style: italic;
+    color: teal;
+}
+*{
+    background-color: bisque;
+}
+

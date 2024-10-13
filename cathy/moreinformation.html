@@ -3,53 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hidden Gems of Switzerland</title>
     <link rel="stylesheet" href="style4.css"> <!-- Link to CSS file -->
+    <link rel="shortcut icon" href="favico.ico" type="image/s=x-icon">
+    <style>
+        h2{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            text-align: center; 
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+            gap: 20px; 
+        }
+        .places {
+            position: relative; 
+            width: 30%; 
+            overflow: hidden;
+        }
+        .places img {
+            width: 100%;
+            height: auto;
+            display: block; 
+            max-height: 200px; 
+            object-fit: cover; 
+        }
+        .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; 
+            transition: opacity 0.3s ease; 
+            max-height: 200px; 
+            object-fit: cover;
+        }
+        .places:hover .hover-image {
+            opacity: 1; 
+        }
+        .description {
+            padding: 10px;
+        }
+     
+        h2:hover{
+            color: chocolate;
+        }
+        li:hover{
+            color: saddlebrown;
+        }
+    </style>
 </head>
 <body>
     <div class="travel-tips"> 
-        <!--More informations about Switzerland-->
         <h2>Hidden Gems of Switzerland</h2>
-        <ol>
-            <li> Lauterbrunnen Valley</li>
-            <img src="./images/lauterbrunnen.png " alt="Lauterbrunnen">
-            
-            <li> Appenzell</li>
-            <img src="./images/appanzel.jpg" alt="Appanzell">
+        <div class="container">
+            <div class="places">
+                <img class="normal-image" src="appanzel.png" alt="Appenzell">
+                <img class="hover-image" src="appanzel1.png" alt="Appenzell Hover">
+                <div class="description">
+                    <h2>Appenzell</h2>
+                </div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="gimmelwald1.png" alt="Gimmelwald">
+                <img class="hover-image" src="gimmelwald.png" alt="Gimmelwald Hover">
+                <div class="description">
+                    <h2>Gimmelwald</h2>
+                </div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="rothorn1.png"Rothorn">
+                <img class="hover-image" src="rothorn.png" alt="Rothorn Hover">
+                <div class="description">
+                    <h2>Rothorn</h2>
+                </div>
+            </div>
+            </div>
+        </div>
         
-            <li> Gimmelwald</li>
-            <img src="./images/Gimmelwald.jpg" alt="Gimmelwald">
-
-            <li> Rothorn</li>
-            <img src="./images/Rothorn.jpg" alt="Rothorn">
-
-            <li> The Aletsch Glacier</li>
-            <img src="./images/Aletsch Glacier.png" alt="Aletsch Glacier">
-        </ol>
         <br>
-        <hr>
-        <hr>
-        <!--In this, you can see Travel tips-->
-            <h2>Travel Tips for Switzerland</h2>
+        <h2>Discover more in Switzerland</h2>
         <ol>
-            <li> Swiss Travel Pass</li>
-            <p>Consider getting a Swiss Travel Pass for unlimited travel on the public transport network, including trains, buses, and boats. It also grants you free or discounted entry to many museums.</p>
-        
-            <li> Language</li>
-            <p>Switzerland has four official languages: German, French, Italian, and Romansh. While many people speak English, learning a few basic phrases in the local language can enhance your experience.</p>
-        
-            <li> Weather Preparedness</li>
-            <p>The weather can change rapidly in the mountains. Pack layers and be prepared for rain, even in summer. Always check the weather forecast before heading out.</p>
-        
-            <li> Dining Etiquette</li>
-            <p>Swiss dining customs are generally informal. Tipping is appreciated but not mandatory; rounding up the bill or leaving small change is common.</p>
-        
-            <li> Cash vs. Card</li>
-            <p>While credit cards are widely accepted, it’s a good idea to carry some cash, especially in smaller towns or markets.</p>
+            <li>Geography
+                <p>Switzerland is a landlocked country located in Central Europe, bordered by France, Germany, Italy, Austria, and Liechtenstein. It's known for its stunning landscapes, including the Swiss Alps, beautiful lakes, and picturesque valleys.</p>
+            </li>
+            <li>Culture
+                <p>Switzerland has a rich cultural heritage influenced by its multilingual population. The country has four official languages: German, French, Italian, and Romansh. Each region has its own unique customs, traditions, and culinary specialties.</p>
+            </li>
+            <li>Economy
+                <p>Switzerland boasts one of the highest per capita incomes in the world and is known for its robust economy, driven by finance, pharmaceuticals, machinery, and tourism. Major cities like Zurich and Geneva are global financial hubs.</p>
+            </li>
+            <li>Dining Etiquette
+                <p>Swiss dining customs are generally informal. Tipping is appreciated but not mandatory; rounding up the bill or leaving small change is common.</p>
+            </li>
         </ol>
         
+        <h3><a href="index.html">Go back to Home page</a></h3>
     </div>
-    <h3><a href="index.html">Go back to Home page</a></h3>
-
 </body>
 </html>

@@ -1,5 +1,4 @@
 h1 {
-    color: darkcyan;
     font-family: Impact;
 }
 
@@ -8,19 +7,26 @@ p {
 }
 
 h2 {
-    color: seagreen;
     font-family: Impact;
 }
 
-p {
-    background-color: bisque;
-    
-}
 h3{
-    color: rgb(223, 56, 56);
+    color: seagreen
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
  li{
     color: red;
     font-size: medium;
+ }
+ h1:hover{
+    color: seagreen;
+ }
+ h2:hover{
+    color: seagreen;
+ }
+ a:hover {
+ color: red
+ }
+ h3:hover{
+    color: seagreen;
  }
